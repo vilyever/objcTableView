@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char objcTableViewVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcTableView/PublicHeader.h>
 
-
+#import <objcTableView/UITableView+VDTouches.h>
+#import <objcTableView/UITableViewCell+VDRegister.h>
+#import <objcTableView/UITableViewCell+VDDequeue.h>

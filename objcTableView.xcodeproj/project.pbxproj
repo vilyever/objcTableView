@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6407B51D548F6100652BAC /* objcTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6407B41D548F6100652BAC /* objcTableView.h */; };
+		FE6407B51D548F6100652BAC /* objcTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6407B41D548F6100652BAC /* objcTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6407BC1D548F6100652BAC /* objcTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6407B11D548F6100652BAC /* objcTableView.framework */; };
 		FE6407C11D548F6100652BAC /* objcTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6407C01D548F6100652BAC /* objcTableViewTests.m */; };
+		FE6407CE1D548F7400652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6407CB1D548F7400652BAC /* Cartfile */; };
+		FE6407CF1D548F7400652BAC /* objcTableView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6407CC1D548F7400652BAC /* objcTableView.podspec */; };
+		FE6407D31D548FB500652BAC /* UITableView+VDTouches.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6407D11D548FB500652BAC /* UITableView+VDTouches.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6407D41D548FB500652BAC /* UITableView+VDTouches.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6407D21D548FB500652BAC /* UITableView+VDTouches.m */; };
+		FE6407D71D548FD400652BAC /* UITableViewCell+VDRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6407D51D548FD400652BAC /* UITableViewCell+VDRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6407D81D548FD400652BAC /* UITableViewCell+VDRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6407D61D548FD400652BAC /* UITableViewCell+VDRegister.m */; };
+		FE6407DB1D548FF100652BAC /* UITableViewCell+VDDequeue.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6407D91D548FF100652BAC /* UITableViewCell+VDDequeue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6407DC1D548FF100652BAC /* UITableViewCell+VDDequeue.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6407DA1D548FF100652BAC /* UITableViewCell+VDDequeue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,15 @@
 		FE6407BB1D548F6100652BAC /* objcTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6407C01D548F6100652BAC /* objcTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcTableViewTests.m; sourceTree = "<group>"; };
 		FE6407C21D548F6100652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6407CB1D548F7400652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE6407CC1D548F7400652BAC /* objcTableView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcTableView.podspec; sourceTree = "<group>"; };
+		FE6407CD1D548F7400652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE6407D11D548FB500652BAC /* UITableView+VDTouches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+VDTouches.h"; sourceTree = "<group>"; };
+		FE6407D21D548FB500652BAC /* UITableView+VDTouches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+VDTouches.m"; sourceTree = "<group>"; };
+		FE6407D51D548FD400652BAC /* UITableViewCell+VDRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+VDRegister.h"; sourceTree = "<group>"; };
+		FE6407D61D548FD400652BAC /* UITableViewCell+VDRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+VDRegister.m"; sourceTree = "<group>"; };
+		FE6407D91D548FF100652BAC /* UITableViewCell+VDDequeue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+VDDequeue.h"; sourceTree = "<group>"; };
+		FE6407DA1D548FF100652BAC /* UITableViewCell+VDDequeue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+VDDequeue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,9 @@
 				FE6407B31D548F6100652BAC /* objcTableView */,
 				FE6407BF1D548F6100652BAC /* objcTableViewTests */,
 				FE6407B21D548F6100652BAC /* Products */,
+				FE6407CB1D548F7400652BAC /* Cartfile */,
+				FE6407CC1D548F7400652BAC /* objcTableView.podspec */,
+				FE6407CD1D548F7400652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +93,12 @@
 			children = (
 				FE6407B41D548F6100652BAC /* objcTableView.h */,
 				FE6407B61D548F6100652BAC /* Info.plist */,
+				FE6407D11D548FB500652BAC /* UITableView+VDTouches.h */,
+				FE6407D21D548FB500652BAC /* UITableView+VDTouches.m */,
+				FE6407D51D548FD400652BAC /* UITableViewCell+VDRegister.h */,
+				FE6407D61D548FD400652BAC /* UITableViewCell+VDRegister.m */,
+				FE6407D91D548FF100652BAC /* UITableViewCell+VDDequeue.h */,
+				FE6407DA1D548FF100652BAC /* UITableViewCell+VDDequeue.m */,
 			);
 			path = objcTableView;
 			sourceTree = "<group>";
@@ -93,6 +119,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6407D31D548FB500652BAC /* UITableView+VDTouches.h in Headers */,
+				FE6407DB1D548FF100652BAC /* UITableViewCell+VDDequeue.h in Headers */,
+				FE6407D71D548FD400652BAC /* UITableViewCell+VDRegister.h in Headers */,
 				FE6407B51D548F6100652BAC /* objcTableView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6407CF1D548F7400652BAC /* objcTableView.podspec in Resources */,
+				FE6407CE1D548F7400652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6407D41D548FB500652BAC /* UITableView+VDTouches.m in Sources */,
+				FE6407DC1D548FF100652BAC /* UITableViewCell+VDDequeue.m in Sources */,
+				FE6407D81D548FD400652BAC /* UITableViewCell+VDRegister.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
